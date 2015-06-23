@@ -21,4 +21,8 @@ end
 
 group :development do
   gem 'rake'
+  gem 'capistrano'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-passenger'
 end
