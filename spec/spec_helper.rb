@@ -33,6 +33,10 @@ RSpec.configure do |config|
   config.include SinatraApp
 end
 
+# require support
+
+Dir['./spec/support/**/*.rb'].sort.each { |f| require f }
+
 
 # configure database cleaner,
 # see https://github.com/DatabaseCleaner/database_cleaner#rspec-example
