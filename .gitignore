@@ -4,3 +4,4 @@ config/database.yml
 config/apache.conf
 config/deploy/production.rb
 config/deploy/staging.rb
+tmp/
